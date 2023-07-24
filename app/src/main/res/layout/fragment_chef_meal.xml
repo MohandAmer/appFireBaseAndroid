@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/img9"
+    tools:context=".fragment.ChefMealFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:id="@+id/linearlayout"
+
+
+        android:layout_width="297dp"
+
+        android:layout_height="141dp"
+
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="284dp"
+        android:background="@drawable/background_shape"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/tmam"
+            android:layout_width="232dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+
+            android:layout_marginTop="50dp"
+            android:background="@drawable/btn"
+
+            android:text="Add Meals"
+            android:textAllCaps="false"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</FrameLayout>
